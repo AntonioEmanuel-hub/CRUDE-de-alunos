@@ -1,4 +1,4 @@
-from alunos import *
+from b_alunos import *
 
 def menu():
 
@@ -17,7 +17,7 @@ def menu():
         opcao = input("\nDigite a opção que você deseja: ")
 
         if opcao == "1":
-            print("Cadastro de aluno")
+            cadastro_aluno()
 
         elif opcao == "2":
             print("Listar aluno")
