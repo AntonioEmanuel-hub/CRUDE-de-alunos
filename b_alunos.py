@@ -1,4 +1,4 @@
-alunos = []
+import json
 id_alunos = 1
 
 def cadastro_aluno():
@@ -77,3 +77,21 @@ def atualizar_alunos():
             return
 
     print('Aluno não encontrado.')
+
+def listar_aluno():
+    
+    if len(alunos) == 0:
+        print('Nem um aluno cadastrado')
+        input("digite ENTER para continuar...")
+
+        return
+    
+    print('\n===== LISTA DE ALUNOS =====')
+
+    for aluno in alunos:
+
+        print(f'ID: {aluno["id"]}')
+        print(f'Nome: {aluno["nome"]}')
+        print(f'Idade: {aluno["idade"]}') 
+    
+    input('\nClique ENTER para continuar...')
