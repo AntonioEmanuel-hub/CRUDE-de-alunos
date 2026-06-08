@@ -37,13 +37,13 @@ def cadastro_aluno():
 
 def atualizar_alunos():
 
-    nome_b = input(
+    nome_Atualizado = input(
         'Digite o nome do aluno que você deseja atualizar: '
     )
 
     for aluno in alunos:
 
-        if aluno['nome'] == nome_b:
+        if aluno['nome'] == nome_Atualizado:
 
             while True:
 
