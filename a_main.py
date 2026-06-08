@@ -23,7 +23,7 @@ def menu():
             print("Listar aluno")
 
         elif opcao == "3":
-            print("Atualizar aluno")
+            atualizar_alunos()
 
         elif opcao == "4":
             print("Remover aluno")
