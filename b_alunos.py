@@ -1,4 +1,4 @@
-import json
+alunos = []
 id_alunos = 1
 
 def cadastro_aluno():
