@@ -81,7 +81,7 @@ def atualizar_alunos():
 def listar_aluno():
     
     if len(alunos) == 0:
-        print('Nem um aluno cadastrado')
+        print('Nenhum aluno cadastrado aluno cadastrado')
         input("digite ENTER para continuar...")
 
         return
