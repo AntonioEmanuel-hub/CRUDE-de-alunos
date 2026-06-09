@@ -99,4 +99,4 @@ def listar_aluno():
 
 def remover_aluno():
 
-    remover_nome = input(str('Digite o nome do aluno que você remover:'))
+        remover_nome = input(str('Digite o nome do aluno que você remover:'))
