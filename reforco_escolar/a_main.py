@@ -20,7 +20,7 @@ def menu():
             cadastro_aluno()
 
         elif opcao == "2":
-            listar_aluno()
+            listar_alunos()
 
         elif opcao == "3":
             atualizar_alunos()
